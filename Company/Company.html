@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OPLAN | 企業情報</title>
+    <link rel="stylesheet" href="style.css">
+    <title>OPLAN | テスト</title>
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
@@ -12,8 +13,8 @@
         <div class="page mt-24">
             <section id="company-greeting" class="section-wrapper undefined">
                 <div class="mb-8">
-                    <h1 class="section-title font-roboto mb-0">CEO Greeting</h1>
-                    <p class="text-conter font-bold">代表挨拶</p>
+                    <h1 class="section-title font-body text-center text-3xl font-black  mb-0">CEO Greeting</h1>
+                    <p class="text-conter text-center font-black font-bold">代表挨拶</p>
                 </div>
                 <div class="section-contents">
                     <div class="bg-white py-6 sm:py-8 lg:py-12">
@@ -21,7 +22,7 @@
                             <div class="grid lg:grid-cols-2 gap-12">
                                 <div class="md:relative">
                                     <div class="h-64 md:h-auto bg-gray-100 overflow-hidden rounded-lg shadow-lg lg:absolute lg:top-0 lg:left-0 lg:z-10">
-                                        <img src="/images/company/greeting.jpg" alt="CEO Greeting" class="w-full h-full object-cover object-center">
+                                        <img src="/Company/images/company/greeting.jpg" alt="CEO Greeting" class="w-full h-full object-cover object-center">
                                     </div>
                                     <div class="w-72 h-96 bg-indigo-300 hidden lg:block lg:absolute lg:top-28 lg:-right-5 lg:z-0"></div>
                                 </div>
@@ -40,7 +41,7 @@
                                     <span class="inline-block h-1 w-10 rounded bg-primary mt-8 mb-6"></span>
                                     <h2 class="text-gray-900 font-medium title-font tracking-wider">オープラン株式会社　代表取締役社長</h2>
                                     <p class="text-2xl font-bold tracking-wider mt-2">
-                                        <img src="/images/company/ceo-sign.png" class="w-6/12" alt="大原 文華">
+                                        <img src="/Company/images/company/ceo-sign.png" class="w-6/12" alt="大原 文華">
                                     </p>
                                 </div>
                             </div>
@@ -63,89 +64,91 @@
                 </div>                               
             </div>
         </section>
-        <section id="company-info" class="section-wrapper section-dark undefined">
+        <section id="company-info" class="section-aa">
+        <!-- <section id="company-info" class="section-wrapper undefined bg-indigo-900 text-white pt-20 pb-20 pl-8"> -->
             <div class="mb-8">
-                <h1 class="section-title font-roboto mb-0">Company Profile</h1>
+                <h1 class="section-title text-center font-roboto mb-0 font-bold">Company Profile</h1>
                 <p class="text-center font-bold">会社概要</p>
             </div>
             <div class="section-contents">
                 <div class="max-w-screen-md px-4 md:px-8 mx-auto">
                     <div class="divide-y">
-                        <div class="company-info-list">
-                            <label class="company-info-list-label">社名</label>
-                            <p class="company-info-list-content">オープラン株式会社（英字　Oplan Inc.）</p>
+                        <div class="company-info-list py-6 flex">
+                            <label class="company-info-list-label w-32 font-bold">社名</label>
+                            <p class="company-info-list-content font-bold">オープラン株式会社（英字　Oplan Inc.）</p>
                         </div>
-                        <div class="company-info-list">
-                            <label class="company-info-list-label">本社所在地</label>
-                            <p class="company-info-list-content">東京都台東区台東２丁目３−２ MKビル４階</p>
+                        <div class="company-info-list py-6 flex">
+                            <label class="company-info-list-label w-32 font-bold">本社所在地</label>
+                            <p class="company-info-list-content font-bold">東京都台東区台東２丁目３−２ MKビル４階</p>
                         </div>
-                        <div class="company-info-list">
-                            <label class="company-info-list-label">電話番号</label>
-                            <p class="company-info-list-content">03-5829-4906</p>
+                        <div class="company-info-list py-6 flex">
+                            <label class="company-info-list-label w-32 font-bold">電話番号</label>
+                            <p class="company-info-list-content font-bold">03-5829-4906</p>
                         </div>
-                        <div class="company-info-list">
-                            <label class="company-info-list-label">役員</label>
-                            <p class="company-info-list-content">代表取締役社長　大原 文華</p>
+                        <div class="company-info-list py-6 flex">
+                            <label class="company-info-list-label w-32 font-bold">役員</label>
+                            <p class="company-info-list-content font-bold">代表取締役社長　大原 文華</p>
                         </div>
-                        <div class="company-info-list">
-                            <label class="company-info-list-label">設立</label>
-                            <p class="company-info-list-content">2015年2月（決算月：1月）</p>
+                        <div class="company-info-list py-6 flex">
+                            <label class="company-info-list-label w-32 font-bold">設立</label>
+                            <p class="company-info-list-content font-bold">2015年2月（決算月：1月）</p>
                         </div>
-                        <div class="company-info-list">
-                            <label class="company-info-list-label">資本金</label>
-                            <p class="company-info-list-content">1000万円</p>
+                        <div class="company-info-list py-6 flex">
+                            <label class="company-info-list-label w-32 font-bold">資本金</label>
+                            <p class="company-info-list-content font-bold">1000万円</p>
                         </div>
-                        <div class="company-info-list">
-                            <label class="company-info-list-label">社員数</label>
-                            <p class="company-info-list-content">75名</p>
+                        <div class="company-info-list py-6 flex">
+                            <label class="company-info-list-label w-32 font-bold">社員数</label>
+                            <p class="company-info-list-content font-bold">75名</p>
                         </div>
-                        <div class="company-info-list">
-                            <label class="company-info-list-label">事業案内</label>
-                            <p class="company-info-list-content">システム・アプリ開発 / 運用保守事業 / デザイン / 翻訳事業 / グローバルソリューション事業</p>
+                        <div class="company-info-list py-6 flex">
+                            <label class="company-info-list-label w-32 font-bold">事業案内</label>
+                            <p class="company-info-list-content font-bold">システム・アプリ開発 / 運用保守事業 / デザイン / 翻訳事業 / グローバルソリューション事業</p>
                         </div>
-                        <div class="company-info-list">
-                            <label class="company-info-list-label">税理士</label>
-                            <p class="company-info-list-content">アシタモ株式会社　山崎 幹夫</p>
+                        <div class="company-info-list py-6 flex">
+                            <label class="company-info-list-label w-32 font-bold">税理士</label>
+                            <p class="company-info-list-content font-bold">アシタモ株式会社　山崎 幹夫</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="company-certification" class="section-wrapper section-dark undefined"> 
+        <section id="company-certification" class="section-wrapper section-dark undefined bg-indigo-900 text-white py-6"> 
             <div class="mb-8">
-                <h1 class="section-title font-roboto mb-0">Certification</h1>
+                <h1 class="section-title text-center font-roboto mb-0 font-bold">Certification</h1>
                 <p class="text-center font-bold">許可/認証</p>
             </div>
             <div class="section-contents">
                 <div class="max-w-screen-md px-4 md:px-8 mx-auto">
                     <div class="divide-y">
-                        <div class="company-info-list">
-                            <label class="company-info-list-label">許可番号</label>
-                            <ul class="list-disc mt-2 sm:mt-0 pl-5">
+                        <div class="company-info-list flex py-6">
+                            <label class="company-info-list-label w-32 font-bold">許可番号</label>
+                            <ul class="list-disc mt-2 sm:mt-0 pl-5 font-bold">
                                 <li>
-                                    ::marker
-                                    "労働者派遣事業派"
+                                    労働者派遣事業派
                                     <br>
-                                    "13-315543"
+                                    13-315543
                                 </li>
                                 <li>
-                                    ::marker
-                                    "インターネット異性紹介事業"
+                                    インターネット異性紹介事業
                                     <br>
-                                    "上野21-043433"
+                                    上野21-043433
                                 </li>
                                 <li>
-                                    ::marker
-                                    "有料職業紹介事業"
+                                    有料職業紹介事業
                                     <br>
-                                    "13-ユ-314031"
+                                    13-ユ-314031
                                 </li>
                             </ul>
                         </div>
-                        <div class="company-info-list">
-                            <label class="company-info-list-label">取得認証 </label>
-                            <img class="object-cover w-32 bg-white p-3 rounded-md mb-2 mt-2 sm:mt-0" src="/images/company/p_mark.png" alt="p-mark">
+                        <div class="company-info-list flex py-6">
+                            <label class="company-info-list-label w-32 font-bold">取得認証 </label>
+                            <img class="object-cover w-32 bg-white p-3 rounded-md mb-2 mt-2 sm:mt-0" src="/Company/images/company/p_mark.png" alt="p-mark">
                         </div>
+                        <!-- <div class="company-info-list flex py-6">
+                            <label class="company-info-list-label w-32 font-bold">取得認証 </label>
+                            <img class="object-cover w-32 bg-white p-3 rounded-md mb-2 mt-2 sm:mt-0" src="/Company/images/company/p_mark.png" alt="p-mark">
+                        </div> -->
                     </div>
                 </div>
             </div>
