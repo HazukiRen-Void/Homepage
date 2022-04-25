@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
@@ -11,6 +12,7 @@
     <link rel="stylesheet" href="style.css">
     <title>OPLAN｜事業内容</title>
     <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="header.css">
 
 
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
@@ -29,24 +31,97 @@ $(function(){
 </script>
 </head>
 <body style="overflow-y: auto;">
+    <div class="navi-bar1">
+        <div class="head-container">
+            <div class="head-flex">
+                <div class="head-left-flex">
+                    <a href="#" class="ha">
+                        <img src="images/logo-white.png" alt="logo" class="flw1">
+                        <img src="images/logo.png" alt="logo" class="flb1">
+                    </a>
+                    <div class="fit">
+                        <button class="mbt">
+                            <svg class="svg-g" xmlns="" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 18h16"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="bh">
+                    <div class="tsh-flex">
+                        <a href="#" class="fjfa">
+                            <div class="flal">
+                                <span class="gls">Home</span>
+                                <span class="gls-h">
+                                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </a>
+                        <a href="#" class="fjfa">
+                            <div class="flal">
+                                <span class="gls">Service</span>
+                                <span class="gls-h">
+                                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </a>
+                        <a href="#" class="fjfa">
+                            <div class="flal">
+                                <span class="gls">Company</span>
+                                <span class="gls-h">
+                                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </a>
+                        <a href="#" class="fjfa">
+                            <div class="flal">
+                                <span class="gls">Recruit</span>
+                                <span class="gls-h">
+                                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </a>
+                        <a href="#" class="fjfa">
+                            <div class="flal">
+                                <span class="gls">Contact</span>
+                                <span class="gls-h">
+                                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
    <div id="__next">
        <div class="flex flex-col h-screen">
             <main class="w-full flex-grow">
                 <div class="page ">
                     <nav class="fixed bottom-3 sm:bottom-auto sm:top-16 bg-gray-100 rounded-full shadow-xl text-sm px-8 py-3 m-2 ml-0 z-50 transition-opacity ease-in-out duration-300">
                         <ul class="flex space-x-6">
-                            <li id="serviceItSolutionLink" class="font-bold text-black hover:text-primary cursor-pointer transition-opacity ease-in-out duration-300">
+                            <li id="jsaf1" class="font-bold text-black hover:text-primary cursor-pointer transition-opacity ease-in-out duration-300 opacity-50">
                                 <a href="#serviceItSolution">IT Solution</a>
                             </li>
-                            <li id="serviceProductsLink" class="font-bold text-black hover:text-primary cursor-pointer transition-opacity ease-in-out duration-300 opacity-50">
+                            <li id="jsaf2" class="font-bold text-black hover:text-primary cursor-pointer transition-opacity ease-in-out duration-300 opacity-50">
                                 <a href="#serviceProducts">Products</a>
                             </li>
-                            <li id="serviceMediaLink" class="font-bold text-black hover:text-primary cursor-pointer transition-opacity ease-in-out duration-300 opacity-50">
+                            <li id="jsaf3" class="font-bold text-black hover:text-primary cursor-pointer transition-opacity ease-in-out duration-300 opacity-50">
                                 <a href="#serviceMedia">Media</a>
                             </li>
                         </ul>
                     </nav>
-                    <section id="serviceItSolution" class="section-wrapper undefined">
+                    <section id="serviceItSolution" class="section-wrapper undefined elm1">
                         <div class="pt-20 sm:pt-32 nav-white-area"></div>
                         <div class="mb-8">
                             <h1 class="section-title font-roboto mb-0 text-center text-3xl">IT Solution</h1>
@@ -57,7 +132,7 @@ $(function(){
                                 <p class="leading-paragraph">オープランではシステム開発・インフラ構築・システムテスト・運用保守業務からユーザサポートまで弊社エンジニアが対応します。<br>お客様の様々な御要望に合わせて、最適な人材、技術をご提案をし、フェーズごとにプロジェクトチームを組み、環境に合った最適なシステムの構築や提案を行って参ります。</p>
                                 <div class="grid sm:grid-cols-2 gap-8">
                                     <a href="#serviceEngineering" class="group w-fullgroup">
-                                        <div class="h-80 flex items-end bg-gray-100 rounded-lg overflow-hidden relative p-4 shadow-lg">
+                                        <div class="image001">
                                             <img src="images/service/it_solution/ses.png" alt="業務委託" class="w-full h-full object-cover object-center absolute inset-0 transform group-hover:scale-110 transition duration-200">
                                             <div class="bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50 absolute inset-0 pointer-events-none"></div>
                                             <div class="flex flex-col relative">
@@ -68,7 +143,7 @@ $(function(){
                                         <div class="mt-3 text-gray-200 group-hover:text-white"></div>
                                     </a>
                                     <a href="#serviceContracted" class="group w-fullgroup">
-                                        <div class="h-80 flex items-end bg-gray-100 rounded-lg overflow-hidden relative p-4 shadow-lg">
+                                        <div class="image001">
                                             <img src="images/service/it_solution/contracted.png" alt="請負開発" class="w-full h-full object-cover object-center absolute inset-0 transform group-hover:scale-110 transition duration-200">
                                             <div class="bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50 absolute inset-0 pointer-events-none"></div>
                                             <div class="flex flex-col relative"><span class="text-gray-300 uppercase">contracted</span>
@@ -79,8 +154,7 @@ $(function(){
                                     </div>
                                 </div>
                             </div>
-                    </section>
-                        <section id="serviceEngineering" class="section-wrapper undefined">
+                        <section id="serviceEngineering" class="section-wrapper undefined ">
                             <div class="mb-8">
                                 <h1 class="section-title font-roboto mb-0 text-center text-3xl">System Engineering Service</h1>
                                 <p class="text-center font-bold">業務請負、エンジニア派遣</p>
@@ -150,7 +224,7 @@ $(function(){
                         </section>
                         <section id="serviceContracted" class="section-wrapper undefined">
                             <div class="mb-8">
-                                <h1 class="section-title font-roboto mb-0 text-center text-3xl">Contracted</h1>
+                                <h1 class="section-title font-roboto mb-0 text-center text-3xl ">Contracted</h1>
                                 <p class="text-center font-bold">請負開発</p>
                             </div>
                             <div class="section-contents">
@@ -180,7 +254,8 @@ $(function(){
                                 </div>
                             </div>
                         </section>
-                        <section id="serviceProducts" class="productsbg">
+                    </section>
+                        <section id="serviceProducts" class="productsbg elm2">
                             <div class="mb-8">
                                 <h1 class="section-title font-roboto mb-0 text-center text-3xl">Products</h1>
                                 <p class="text-center font-bold">自社提供サービス</p>
@@ -231,7 +306,7 @@ $(function(){
                                 </div>
                             </div>
                         </section>
-                        <section id="serviceMedia" class="section-wrapper undefined">
+                        <section id="serviceMedia" class="section-wrapper undefined elm3">
                             <div class="mb-8">
                                 <h1 class="section-title font-roboto mb-0 text-center text-3xl">Media</h1>
                                 <p class="text-center font-bold">映像制作</p>
@@ -356,5 +431,75 @@ $(function(){
             </footer>
         </div>
     </div>    
+    <script>
+         const options1 = {
+            root: null,
+            threshold: 0
+        }
+        const elm1 = document.querySelector(".elm1");
+        const div1 = document.getElementById('jsaf1');
+         const callback1 = function(entries, observer) {
+              entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        div1.classList.add('opa1');
+                     } else {
+                        div1.classList.remove('opa1');
+                    } }) } 
+                      const io1 = new IntersectionObserver(callback1,options1);
+                       io1.observe(elm1);
+    </script>
+        <script>
+            const options2 = {
+            root: null,
+            threshold: 0.5
+        }
+            const elm2 = document.querySelector(".elm2");
+            const div2 = document.getElementById('jsaf2');
+             const callback2 = function(entries, observer) {
+                  entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            div2.classList.add('opa2');
+                         } else {
+                            div2.classList.remove('opa2');
+                        } }) } 
+                          const io2 = new IntersectionObserver(callback2,options2);
+                           io2.observe(elm2);
+        </script>
+            <script>
+                const elm3 = document.querySelector(".elm3");
+                const div3 = document.getElementById('jsaf3');
+                 const callback3 = function(entries, observer) {
+                      entries.forEach(entry => {
+                            if (entry.isIntersecting) {
+                                div3.classList.add('opa3');
+                             } else {
+                                div3.classList.remove('opa3');
+                            } }) } 
+                              const io3 = new IntersectionObserver(callback3,options2);
+                               io3.observe(elm3);
+            </script>
+    <!-- <script>
+        const jsaf = document.querySelectorAll('.jsaf');
+        const options = {
+          rootMargin: '-30% 0px',
+        };
+        
+        const fadeIn = (target) => {
+          target.classList.add('op');
+        };
+        
+        const observeUse = (entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              fadeIn(entry.target);
+            }
+          });
+        };
+        
+        const observer = new IntersectionObserver(observeUse, options);
+        iSObservers.forEach(jsaf => {
+          observer.observe(jsaf);
+        }); -->
+    </script>
 </body>          
 </html>          
