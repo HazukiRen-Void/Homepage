@@ -1,6 +1,7 @@
 body{
+    position: absolute;
     height: 100%;
-    width: 100%;
+    width: 100vw;
     padding: 0;
     margin: 0;
 }
@@ -12,6 +13,7 @@ body{
     height: 100vh;
     object-fit: cover;
     overflow: hidden;
+    box-sizing: inherit;
 }
 video.video-size {
     position: absolute;
@@ -19,6 +21,7 @@ video.video-size {
     padding: 0;
     margin: 0;
     width: 100%;
+    overflow: hidden;
 }
 .banner-title{
     position: absolute;
@@ -31,37 +34,204 @@ video.video-size {
     font-size: 3rem;
     text-align: center;
     border-bottom: medium solid white;
-    border-width: 1px;
-    font-family: Noto Sans JP,Roboto,sans-serif;
+    font-weight: 800;
 }
 .sub-title{
     text-align: center;
     font-size:1.25rem;
-    font-family: Noto Sans JP,Roboto,sans-serif;
+    font-weight: 700;
 }
-h1{
-    display: block;
+// h1{
+//     display: block;
+// }
+h1.text-srevice,h1.text-news{
+    font-size: 1.875rem;
+    font-weight: 800;
+    text-align: center;
+    color: white;
 }
-
+.text-srevice-sub{
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}
+.text-news{
+    text-align: center;
+    color: white;
+}
+.text-news-sub{
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}
+.read{
+    text-align: center;
+    padding-top: 30px;
+}
+.readmore{
+    border: 0 solid;
+    text-decoration: inherit;
+    box-sizing: border-box;
+    border-width: 2px;
+    font-weight: 500;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: white;
+    border-radius: 30px;
+}
+.readmore-blue {
+    border: 0 solid;
+    text-decoration: inherit;
+    box-sizing: border-box;
+    border-width: 2px;
+    font-weight: 500;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: #000041;
+    border-radius: 30px;
+}
+.wrapper-service{
+    background-color: #000041;
+    padding: 5rem 1rem;    
+}
+.wrapper-news{
+    background-color: #000041;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 5rem 1rem;
+}
 h1.section-main {
     text-align: center;
     font-size: 1.875rem;
     line-height: 2.25rem;
     color: white;  
 }
-p.section-sub {
+.flex-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    object-fit: cover;
+    overflow: hidden;
+    justify-content: center;
+}
+.box {
+    position: absolute;
+    top:70%;
+    left:5%;
+    display: flex;
+    flex-direction: column;
+}
+.inner {
+    position: relative;
+}
+.service-text{
+        color: white;
+}
+.news-text{
+    color: white;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 700;
+    width: 362.663px;
+}
+.news-text-sub{
+    color: white;
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+.company-wrapper{
+    padding: 5rem 1rem;
+    justify-content: center;
+    display: flex;
+    flex-flow: column;
+}
+.company-text {
     text-align: center;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    margin: 0;
+}
+.company-text-sub {
+    text-align: center;
+    margin: 0;
     font-weight: 700;
     margin: 0;
-    color: white; 
 }
-.section-wrapper {
-    background-color: #000041;
-    padding: 5rem 1rem;
-}
-.section-wrapper {
-    grid-template-columns: repeat(3,minmax(0,1fr));
-    row-gap: 1.5rem;
-    column-gap: 2rem;
+.company-content{
     text-align: center;
+    margin: 0;
+}
+.mb-8{
+    margin-bottom: 2rem;
+}
+.image-wrap-news img {
+    height: 203.988px;
+    width: 362.663px;
+    justify-content: space-between;
+}
+.srevice-image{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1rem;
+    column-gap: 2rem;
+}
+.wrapper-service-image {
+    height: 150px;
+    overflow: hidden;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.image-wrap{
+    margin: 0px 2rem;
+}
+
+.image-wrap img {
+    height: 320px;
+    width: 490.656px;
+}
+.flex-item {
+    width: 32%;
+}
+.inner-text {
+    position: absolute;
+    color: white;
+    font-size: 16px;
+}
+.inner-text-sub {
+    position: absolute;
+    color:  white;
+    font-size: 16px;
+} 
+// .box {
+//     position: absolute;
+//     top:70%;
+//     left:5%;
+//     display: flex;
+//     flex-direction: column;
+// }
+.inner {
+    position: relative;
+}
+.image-wrap-news {
+    margin: 1rem;
 }

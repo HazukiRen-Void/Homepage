@@ -1,33 +1,353 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OPLAN Inc.</title>
-    <link rel="stylesheet" href="/styles/home.css">
-    <link rel="stylesheet" href="/styles/image.css">
-</head>
-    <body>
-            <div class="video-wrapper">
-                <video class="video-size videosize" src="/images/banner.mp4" type="video/mp4" playsinline autoplay loop muted disablepictureinpicture></video>
-                <div class="banner-title">
-                    <h1 class="main-title">OPLAN INC.</h1>
-                    <p class="sub-title">世界中の人々に喜んでもらえるサービス・プロダクトを！</p>
+    <link rel="stylesheet" href="/styles/home.css" />
+    <!-- <link rel="stylesheet" href="/styles/image.css" /> -->
+    <link rel="stylesheet" href="/styles/footer.css" />
+    <link rel="stylesheet" href="/styles/header.css" />
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="navi-bar">
+        <div class="head-container">
+            <div class="head-flex">
+                <div class="head-left-flex">
+                    <a href="#" class="ha">
+                        <img src="/images/logo-white.png" alt="logo" class="flw">
+                        <img src="/images/logo-blue.png" alt="logo" class="flb">
+                    </a>
+                    <div class="fit">
+                        <button class="mbt">
+                            <svg class="svg-g" xmlns="" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 18h16"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="bh">
+                    <div class="tsh-flex">
+                        <a href="#" class="fjfa">
+                            <div class="flal">
+                                <span class="gls">Home</span>
+                                <span class="gls-h">
+                                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </a>
+                        <a href="#" class="fjfa">
+                            <div class="flal">
+                                <span class="gls">Service</span>
+                                <span class="gls-h">
+                                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </a>
+                        <a href="#" class="fjfa">
+                            <div class="flal">
+                                <span class="gls">Company</span>
+                                <span class="gls-h">
+                                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </a>
+                        <a href="#" class="fjfa">
+                            <div class="flal">
+                                <span class="gls">Recruit</span>
+                                <span class="gls-h">
+                                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </a>
+                        <a href="#" class="fjfa">
+                            <div class="flal">
+                                <span class="gls">Contact</span>
+                                <span class="gls-h">
+                                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
-            <div class="section-wrapper">
-                <h1 class="section-main">SERVICES</h1>
-                <p class="section-sub">事業内容</p>
-                <div class="seciton-picture">
-                    <img class="picture-wrapper" src="/images/service-it.jpg" alt="">
-                    <!-- <p class="picture-text">お客様の課題に応えられる理想的なソリューションを提供</p> -->
-                    <img class="picture-wrapper" src="/images/service-it.jpg" alt="">
-                    <!-- <p class="picture-text">世の中がより便利になるように斬新なITサービスを提供</p> -->
-                    <img class="picture-wrapper" src="/images/service-it.jpg" alt="">
-                    <!-- <p class="picture-text">“伝わる動画”と”伝わるデザイン”お客様の伝えたいを形に</p> -->
+        </div>
+    </div>
+    <div class="video-wrapper">
+      <video
+        class="video-size videosize"
+        src="/images/banner.mp4"
+        type="video/mp4"
+        playsinline
+        autoplay
+        loop
+        muted
+        disablepictureinpicture
+      ></video>
+      <div class="banner-title">
+        <h1 class="main-title">OPLAN INC.</h1>
+        <p class="sub-title">
+          世界中の人々に喜んでもらえるサービス・プロダクトを！
+        </p>
+      </div>
+    </div>
+    <div class="wrapper-service">
+      <h1 class="text-srevice">SERVICES</h1>
+      <p class="text-srevice-sub">事業内容</p>
+      <div class="mb-8"></div>
+      <div class="flex-container">
+        <div class="flex-item">
+          <div class="image-wrap">
+            <div class="inner">
+              <img src="/images/service-it.jpg" />
+              <!-- <div class="box"> -->
+              <!-- <span class="inner-text">業務委託/請負開発</span>
+                            <span class="inner-text-sub">IT Solution</span> -->
+              <!-- </div> -->
+            </div>
+            <div class="service-text">
+              お客様の課題に応えられる理想的なソリューションを提供
+            </div>
+          </div>
+        </div>
+        <div class="flex-item">
+          <div class="image-wrap">
+            <div class="inner">
+              <img src="/images/service-media.jpg" />
+              <!-- <div class="box"> -->
+              <!-- <span class="inner-text">⾃社提供サービス</span>
+                            <span class="inner-text-sub">Products</span> -->
+              <!-- </div> -->
+            </div>
+            <div class="service-text">
+              世の中がより便利になるように斬新なITサービスを提供
+            </div>
+          </div>
+        </div>
+        <div class="flex-item">
+          <div class="image-wrap">
+            <div class="inner">
+              <img src="/images/service-products.jpg" />
+              <!-- <div class="box"> -->
+              <!-- <span class="inner-text">動画/デザイン制作</span>
+                                <span class="inner-text-sub">Media</span> -->
+              <!-- </div> -->
+            </div>
+            <div class="service-text">
+              “伝わる動画”と”伝わるデザイン”お客様の伝えたいを形に
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="read">
+        <a href="#" class="readmore">Read More</a>
+      </div>
+    </div>
+    <div class="company-wrapper">
+      <h1 class="company-text">COMPANY</h1>
+      <p class="company-text-sub">企業情報</p>
+      <div class="mb-8"></div>
+      <p class="company-content">
+        オープランは2015年に「ITをより身近に」をコンセプトに設立されました。
+        <br />創業から現在まで、このコンセプトで運営を行い、
+        <br />数多くのお客様から実績を基に信頼をいただける企業へと成長しました。
+        <br />
+        <br />これからは第二創業期として、ITのトータルカンパニーとして、
+        <br />様々なソフトウェアを世に展開していきます。
+        <br />豊富なアイディアを具現化し商品化していくことで、事業をより多角化していきます。
+      </p>
+      <div class="read">
+        <a href="#" class="readmore-blue">Read More</a>
+      </div>
+    </div>
+    <div class="wrapper-news">
+        <h1 class="text-news">NEWS</h1>
+        <p class="text-news-sub">新着情報</p>
+        <div class="mb-8"></div>
+        <div class="flex-container">
+          <div class="flex-item">
+            <div class="image-wrap-news">
+              <div class="inner">
+                <img src="/images/スクリーンショット-2022-03-10-9.33.28.png"/>
+              </div>
+              <h2 class="news-text">
+                ORICON NEWSで紹介されました！
+              </h2>
+              <span class="news-text-sub">
+                2022/3/10
+              </p>
+            </div>
+          </div>
+          <div class="flex-item">
+            <div class="image-wrap-news">
+              <div class="inner">
+                <img src="/images/ニュースフリーリサイズ.jpg"/>
+              </div>
+              <h2 class="news-text">
+                産経ニュースで紹介されました！
+              </h2>
+              <p class="news-text-sub">
+                2022/3/10
+              </p>
+            </div>
+          </div>
+          <div class="flex-item">
+            <div class="image-wrap-news">
+              <div class="inner">
+                <img src="/images/doda2201リサイズ.jpeg" class="news-image"/>
+              </div>
+              <h2 class="news-text">
+                エンジニア募集！未経験からの挑戦お待ちしています！
+              </h2>
+              <p class="news-text-sub">
+                2022/3/10
+              </p>
+            </div>
+          </div>
+          <div class="flex-item">
+            <div class="image-wrap-news">
+              <div class="inner">
+                <img src="/images/賢者グローバル_テキストバナーリサイズ.jpeg" class="news-image"/>
+              </div>
+              <h2 class="news-text">
+                エンジニア募集！未経験からの挑戦お待ちしています！
+              </h2>
+              <p class="news-text-sub">
+                2022/3/10
+              </p>
+            </div>
+          </div>
+          <div class="flex-item">
+            <div class="image-wrap-news">
+              <div class="inner">
+                <img src="/images/オープラン株式会社-大原文華リサイズ.jpg" class="news-image"/>
+              </div>
+              <h2 class="news-text">
+                弊社代表がKENJA GLOBALに取材されました！
+              </h2>
+              <p class="news-text-sub">
+                2022/1/5
+              </p>
+            </div>
+          </div>
+          <div class="flex-item">
+            <div class="image-wrap-news">
+              <div class="inner">
+                <img src="/images/卒マッチングアプリリサイズ.png" class="news-image"/>
+              </div>
+              <h2 class="news-text">
+                弊社代表が「THE HUMAN STORY(ザ・ヒューマンストーリー)」様に取材されました！
+              </h2>
+              <p class="news-text-sub">
+                2022/1/5
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="read">
+          <a href="#" class="readmore">Read More</a>
+        </div>
+      </div>
+      <div class="company-wrapper">
+        <h1 class="company-text">RECRUIT</h1>
+        <p class="company-text-sub">採用情報</p>
+        <div class="mb-8"></div>
+        <p class="company-content">
+            オープランの強い想いであるフラットでフェアな組織であること。
+          <br />ミッション達成のために必要なことを考え、行動できる組織であること。
+          <br />社員全員この想いを体現し続けています。
+          <br />
+          <br />実力主義の考えをもち、年功序列主義でなく、
+          <br />風通しがよいIT企業にて働きたいと考えている方は
+          <br />是非オープランのリクルートページをご覧ください。
+        </p>
+        <div class="read">
+          <a href="#" class="readmore-blue">Read More</a>
+        </div>
+      </div>
+  </body>
+  <footer class="footer">
+    <div class="footer-container">
+        <div class="footer-flex">
+            <div class="footer-fle-con">
+                <h2 class="footer-h2">アクセス</h2>
+                <div class="maps">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.9631149233223!2d139.7777312508131!3d35.70252528009204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188facf2e0e703%3A0xee51261061043f33!2z44Kq44O844OX44Op44Oz5qCq5byP5Lya56S-!5e0!3m2!1sja!2sjp!4v1637042514099!5m2!1sja!2sjp" class="w-full h-full" style="border:0" title="access" allowfullscreen=""></iframe>
+                </div>
+                <h2 class="footeer-h2">公式リンク</h2>
+                <ul class="footer-ul">
+                    <li class="footer-li">
+                        <a href="https://recruit.oplan.co.jp/" class="footer-a" target="_blank" rel="noreferrer">-Recruit</a>
+                    </li>
+                    <li class="footer-lii">
+                        <a href="#" class="footer-a" target="_blank" rel="noreferrer">-Blog</a>
+                    </li>
+                    <li class="footer-lii">
+                        <a href="#" class="footer-a" target="_blank" rel="noreferrer">-Facebook</a>
+                    </li>
+                    <li class="footer-lii">
+                        <a href="#" class="footer-a" target="_blank" rel="noreferrer">-Twitter</a>
+                    </li>
+                </ul>
+                <div class="jfooter">
+                    <div class="jf-flex">
+                        <a href="#" class="jfs-a" target="_self">お問い合わせ</a>
+                    </div>
                 </div>
             </div>
-            
-    </body>
+            <div class="md-flex-fo">
+                <div class="flfl-fo">
+                    <h2 class="flfl-h2">会社概要</h2>
+                    <ul class="flfl-ul">
+                        <li class="fkfk-li">
+                            <label class="flfl-l">会社名</label>
+                            <p class="flflfl-p">オープラン株式会社</p>
+                        </li>
+                        <li class="fkfk-li">
+                            <label class="flfl-l">住所</label>
+                            <p class="flflfl-p">東京都台東区台東２丁目３-２MKビル４階</p>
+                        </li>
+                        <li class="fkfk-li">
+                            <label class="flfl-l">代表者</label>
+                            <p class="flflfl-p">大原　文華</p>
+                        </li>
+                        <li class="fkfk-li">
+                            <label class="flfl-l">設立</label>
+                            <p class="flflfl-p">2015年2月(決算月：1月)</p>
+                        </li>
+                        <li class="fkfk-li">
+                            <label class="flfl-l">資本金</label>
+                            <p class="flflfl-p">1000万円</p>
+                        </li>
+                        <li class="fkfk-li">
+                            <label class="flfl-l">社員数</label>
+                            <p class="flflfl-p">75名</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="prpf">
+        <div class="prpf-flex">
+            <p class="copy-r">&copy; 2021 Oplan Inc.</p>
+            <span class="cps">
+                <a href="#" class="sp-a">SITE POLICY</a>
+                <a href="#" class="sp-aa1">PRIVACY POLICY</a>
+            </span>
+        </div>
+    </div>
+</footer>
 </html>
