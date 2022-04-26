@@ -1519,4 +1519,79 @@ a {
 .pl-xl-3, .px-xl-3 {
   padding-left: 1rem !important;
 }
+
+.interview {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.interview-box {
+  width: 100%;
+  height: 384px;
+  margin: 0 auto 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.box-l {
+  padding-right: 48px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 58.3333333333%;
+          flex: 0 0 58.3333333333%;
+  max-width: 58.3333333333%;
+}
+
+p.q {
+  height: 24px;
+  margin-bottom: 4px;
+  margin-top: 0;
+}
+
+p.a {
+  padding-left: 14px;
+  margin: 0;
+  color: #6c757d !important;
+}
+
+p.a:before {
+  content: "";
+  position: absolute;
+  left: 2px;
+  height: 68%;
+  width: 4px;
+  border-radius: 50px;
+  background-color: #00004c;
+}
+
+.int-c01 {
+  margin-bottom: 24px;
+  position: relative;
+}
+
+.box-r {
+  padding-left: 15px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 41.6666666667%;
+          flex: 0 0 41.6666666667%;
+  max-width: 41.6666666667%;
+}
+
+img.ohr {
+  border-radius: 0.3rem;
+  border: 1px solid #dee2e6;
+  max-width: 100%;
+  height: auto;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.py-120px {
+  padding-bottom: 120px;
+}
 /*# sourceMappingURL=oohara.css.map */
