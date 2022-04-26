@@ -33,6 +33,7 @@
 }
 img, svg {
     vertical-align: middle;
+    width: 100%;
 }
 .row {
     display: flex;
@@ -198,6 +199,14 @@ a {
     word-wrap: break-word;
     border-radius: 0.25rem;
 }
+.col-md-8 {
+    flex: 0 0 66.6666666667%;
+    max-width: 66.6666666667%;
+}
+.col-md-4 {
+    flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%;
+}
 [class*=col-] {
     padding-right: 0;
     padding-left: 0;
@@ -211,7 +220,14 @@ a {
 .no-gutters {
     margin-right: 0;
     margin-left: 0;
+    width: 100%;
 }
 .bg-light {
     background-color: #f8f9fa!important;
+}
+.p-rem {
+    font-size : 1rem;
+}
+.px-5 {
+    padding-left: 15px;
 }
