@@ -955,7 +955,7 @@ h3.h3-size {
     text-transform: uppercase!important;
 }
 .bg-navy {
-    background-color: #007BFF;
+    background-color: #5A487F;
     color: #fff;
 }
 .text-center {
@@ -1133,7 +1133,7 @@ a {
     color: #6c757d!important;
 }
 .answer.navy:before {
-    background-color: #00004c;
+    background-color: #5A487F;
 }
 .answer:before {
     content: "";
@@ -1154,7 +1154,7 @@ a {
 
 .interview-box {
     width: 100%;
-    height: 384px;
+    height: 435px;
     margin: 0 auto 48px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1187,10 +1187,10 @@ p.a:before {
     content: "";
     position: absolute;
     left: 2px;
-    height: 68%;
+    height: 78%;
     width: 4px;
     border-radius: 50px;
-    background-color: #00004c;
+    background-color: #5A487F;
 }
 
 .int-c01 {
@@ -1213,4 +1213,12 @@ img.ohr {
 }
 .py-120px{
     padding-bottom: 120px;
+}
+
+.dis {
+    display: flex;
+}
+
+.profession-wrapper {
+    padding: 0 2px;
 }
