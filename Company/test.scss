@@ -1,0 +1,56 @@
+section.compa {
+    --tw-bg-opacity: 1;
+    --tw-text-opacity: 1;
+    background-color: rgba(0,0,77,var(--tw-bg-opacity));
+    padding: 5rem 1rem;
+    color: rgba(255,255,255,var(--tw-text-opacity));
+}
+h1.sec-con-h1 {
+    font-family: Roboto,sans-serif;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 700;
+    letter-spacing: .1em;
+    text-align: center;
+}
+p.sec-con-p {
+    font-weight: 700;
+    text-align: center;
+}
+.sec-con {
+    margin-left: auto;
+    max-width: 1024px;
+    margin-right: auto;
+    width: 100%;
+}
+.ds-sec {
+    padding-left: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 2rem;
+    max-width: 768px;
+}
+.comp-info-l {
+    padding-top: 1.5rem;
+    display: flex;
+    padding-bottom: 1.5rem;
+}
+label.comp-lab {
+    width: 8rem;
+    flex-shrink: 0;
+    font-weight: 700;
+}
+p.comp-info-l-p {
+    flex: 1 1 0%;
+}
+.comp-info-ll {
+    --tw-divide-y-reverse: 0;
+    border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
+    display: flex;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom-width: calc(1px * var(--tw-divide-y-reverse));
+}
+.sec-div {
+    margin-bottom: 2rem;
+}
