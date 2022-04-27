@@ -81,9 +81,14 @@ h3.mb-5 {
     width: 1.5rem;
     flex-shrink: 0;
     border-radius: 9999px;
+    transition: all 0.5s ease 0s;
     line-height: 1.25rem;
     font-weight: 500;
 }
+.z-10:hover {
+    background: #1E40AF;
+}
+
 .pl-6 {
     padding-left: 2rem;
     align-items: center;
