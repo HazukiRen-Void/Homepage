@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/contact.css">
-    <link rel="stylesheet" href="styles/recruit.css">
+    <link rel="stylesheet" href="styles/index.css">
     <title>OPLAN | お問い合わせ</title>
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
