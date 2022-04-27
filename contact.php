@@ -83,6 +83,7 @@
                     </div>
                 </div>
             </div>
+    <div class="concon-sec">
     <div class="container">
         <div class="mb-8">
             <h1 class="section-title">CONTACT</h1>
@@ -238,6 +239,7 @@
                     </button>
                 </div>
             </form>
+        </div>
     </div>
     <footer class="footer">
                 <div class="footer-container">

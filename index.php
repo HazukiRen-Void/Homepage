@@ -10,79 +10,79 @@
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
     <body>
-            <div class="navi-bar">
-                <div class="head-container">
-                    <div class="head-flex">
-                        <div class="head-left-flex">
-                            <a href="#" class="ha">
-                                <img src="images/logo-white.png" alt="logo" class="flw">
-                                <img src="images/logo-blue.png" alt="logo" class="flb">
-                            </a>
-                            <div class="fit">
-                                <button class="mbt">
-                                    <svg class="svg-g" xmlns="" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 18h16"></path>
+    <div class="navi-bar" id="js">
+        <div class="head-container1">
+            <div class="head-flex">
+                <div class="head-left-flex">
+                    <a href="#" class="ha">
+                        <img src="images/logo-white.png" alt="logo" class="flw" id="js9">
+                        <img src="images/logo-blue.png" alt="logo" class="flb" id="js10">
+                    </a>
+                    <div class="fit">
+                        <button class="mbt">
+                            <svg class="svg-g" xmlns="" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 18h16"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="bh">
+                    <div class="tsh-flex">
+                        <a href="#" class="fjfa1" id="js1">
+                            <div class="flal">
+                                <span class="gls">Home</span>
+                                <span class="gls-h">
+                                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
                                     </svg>
-                                </button>
+                                </span>
                             </div>
-                        </div>
-                        <div class="bh">
-                            <div class="tsh-flex">
-                                <a href="#" class="fjfa">
-                                    <div class="flal">
-                                        <span class="gls">Home</span>
-                                        <span class="gls-h">
-                                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-                                            </svg>
-                                        </span>
-                                    </div>
-                                </a>
-                                <a href="#" class="fjfa">
-                                    <div class="flal">
-                                        <span class="gls">Service</span>
-                                        <span class="gls-h">
-                                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-                                            </svg>
-                                        </span>
-                                    </div>
-                                </a>
-                                <a href="#" class="fjfa">
-                                    <div class="flal">
-                                        <span class="gls">Company</span>
-                                        <span class="gls-h">
-                                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-                                            </svg>
-                                        </span>
-                                    </div>
-                                </a>
-                                <a href="#" class="fjfa">
-                                    <div class="flal">
-                                        <span class="gls">Recruit</span>
-                                        <span class="gls-h">
-                                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-                                            </svg>
-                                        </span>
-                                    </div>
-                                </a>
-                                <a href="contact.php" class="fjfa">
-                                    <div class="flal">
-                                        <span class="gls">Contact</span>
-                                        <span class="gls-h">
-                                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-                                            </svg>
-                                        </span>
-                                    </div>
-                                </a>
+                        </a>
+                        <a href="#column" class="fjfa1" id="js2">
+                            <div class="flal">
+                                <span class="gls">Service</span>
+                                <span class="gls-h">
+                                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                                    </svg>
+                                </span>
                             </div>
-                        </div>
+                        </a>
+                        <a href="#career" class="fjfa1" id="js3">
+                            <div class="flal">
+                                <span class="gls">Company</span>
+                                <span class="gls-h">
+                                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </a>
+                        <a href="#interview" class="fjfa1" id="js4">
+                            <div class="flal">
+                                <span class="gls">Recruit</span>
+                                <span class="gls-h">
+                                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </a>
+                        <a href="#workPlace" class="fjfa1" id="js5">
+                            <div class="flal">
+                                <span class="gls">Contact</span>
+                                <span class="gls-h">
+                                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
             <main class="main">
                 <section class="bunner">
                     <video src="images/banner.mp4" class="video" playsinline autoplay loop muted disablepictureinpicture></video>
@@ -93,6 +93,7 @@
                         </div>
                     </div>
                 </section>
+                <div class="elm">
                 <section class="service-s">
                     <div class="sec-con-ser">
                         <div class="sec-con-ser-mm">
@@ -293,6 +294,7 @@
                     </div>
                 </section>
             </main>
+        </div>
             <footer class="footer">
                 <div class="footer-container">
                     <div class="footer-flex">
@@ -365,6 +367,55 @@
                     </div>
                 </div>
             </footer>
-
+            <script>
+        const options = {
+            root: null,
+            rootMargin: '-300px 0px -300px 0px',
+            threshold: 0
+        }
+        const elm = document.querySelector(".elm");
+        const div = document.getElementById("js");
+        const div1 = document.getElementById("js1");
+        const div2 = document.getElementById("js2");
+        const div3 = document.getElementById("js3");
+        const div4 = document.getElementById("js4");
+        const div5 = document.getElementById("js5");
+        const div6 = document.getElementById("js6");
+        const div7 = document.getElementById("js7");
+        const div8 = document.getElementById("js8");
+        const div9 = document.getElementById("js9");
+        const div10 = document.getElementById("js10");
+        const callback = function(entries, observer) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                     div.classList.add('bg');
+                     div1.classList.add('ccb');
+                     div2.classList.add('ccb');
+                     div3.classList.add('ccb');
+                     div4.classList.add('ccb');
+                     div5.classList.add('ccb');
+                     div6.classList.add('ccb');
+                     div7.classList.add('ccb');
+                     div8.classList.add('ccb');
+                     div9.classList.add('dn');
+                     div10.classList.add('db');
+                }else{
+                     div.classList.remove('bg');
+                     div1.classList.remove('ccb');
+                     div2.classList.remove('ccb');
+                     div3.classList.remove('ccb');
+                     div4.classList.remove('ccb');
+                     div5.classList.remove('ccb');
+                     div6.classList.remove('ccb');
+                     div7.classList.remove('ccb');
+                     div8.classList.remove('ccb');
+                     div9.classList.remove('dn');
+                     div10.classList.remove('db');
+                }
+            })
+        }
+        const io = new IntersectionObserver(callback,options);
+        io.observe(elm);
+    </script>
     </body>
 </html>
