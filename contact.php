@@ -5,10 +5,85 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/recruit.css">
     <title>OPLAN | お問い合わせ</title>
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
+<div class="navi-bar">
+                <div class="head-container">
+                    <div class="head-flex">
+                        <div class="head-left-flex">
+                            <a href="index.php" class="ha">
+                                <img src="images/logo-white.png" alt="logo" class="flw">
+                                <img src="images/logo-blue.png" alt="logo" class="flb">
+                            </a>
+                            <div class="fit">
+                                <button class="mbt">
+                                    <svg class="svg-g" xmlns="" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 18h16"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="bh">
+                            <div class="tsh-flex">
+                                <a href="index.php" class="fjfa">
+                                    <div class="flal">
+                                        <span class="gls">Home</span>
+                                        <span class="gls-h">
+                                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </a>
+                                <a href="#" class="fjfa">
+                                    <div class="flal">
+                                        <span class="gls">Service</span>
+                                        <span class="gls-h">
+                                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </a>
+                                <a href="#" class="fjfa">
+                                    <div class="flal">
+                                        <span class="gls">Company</span>
+                                        <span class="gls-h">
+                                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </a>
+                                <a href="recruit_home.php" class="fjfa">
+                                    <div class="flal">
+                                        <span class="gls">Recruit</span>
+                                        <span class="gls-h">
+                                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </a>
+                                <a href="contact.php" class="fjfa">
+                                    <div class="flal">
+                                        <span class="gls">Contact</span>
+                                        <span class="gls-h">
+                                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    <div class="concon-sec">
     <div class="container">
         <div class="mb-8">
             <h1 class="section-title">CONTACT</h1>
@@ -164,7 +239,80 @@
                     </button>
                 </div>
             </form>
+        </div>
     </div>
+    <footer class="footer">
+                <div class="footer-container">
+                    <div class="footer-flex">
+                        <div class="footer-fle-con">
+                            <h2 class="footer-h2">アクセス</h2>
+                            <div class="maps">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.9631149233223!2d139.7777312508131!3d35.70252528009204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188facf2e0e703%3A0xee51261061043f33!2z44Kq44O844OX44Op44Oz5qCq5byP5Lya56S-!5e0!3m2!1sja!2sjp!4v1637042514099!5m2!1sja!2sjp" class="w-full h-full" style="border:0" title="access" allowfullscreen=""></iframe>
+                            </div>
+                            <h2 class="footeer-h2">公式リンク</h2>
+                            <ul class="footer-ul">
+                                <li class="footer-li">
+                                    <a href="recruit_home.php" class="footer-a" target="_blank" rel="noreferrer">-Recruit</a>
+                                </li>
+                                <li class="footer-lii">
+                                    <a href="https://blog.oplan.co.jp/" class="footer-a" target="_blank" rel="noreferrer">-Blog</a>
+                                </li>
+                                <li class="footer-lii">
+                                    <a href="https://www.facebook.com/oplaninc/" class="footer-a" target="_blank" rel="noreferrer">-Facebook</a>
+                                </li>
+                                <li class="footer-lii">
+                                    <a href="https://www.facebook.com/oplaninc/" class="footer-a" target="_blank" rel="noreferrer">-Twitter</a>
+                                </li>
+                            </ul>
+                            <div class="jfooter">
+                                <div class="jf-flex">
+                                    <a href="contact.php" class="jfs-a" target="_self">お問い合わせ</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="md-flex-fo">
+                            <div class="flfl-fo">
+                                <h2 class="flfl-h2">会社概要</h2>
+                                <ul class="flfl-ul">
+                                    <li class="fkfk-li">
+                                        <label class="flfl-l">会社名</label>
+                                        <p class="flflfl-p">オープラン株式会社</p>
+                                    </li>
+                                    <li class="fkfk-li">
+                                        <label class="flfl-l">住所</label>
+                                        <p class="flflfl-p">東京都台東区台東２丁目３-２MKビル４階</p>
+                                    </li>
+                                    <li class="fkfk-li">
+                                        <label class="flfl-l">代表者</label>
+                                        <p class="flflfl-p">大原　文華</p>
+                                    </li>
+                                    <li class="fkfk-li">
+                                        <label class="flfl-l">設立</label>
+                                        <p class="flflfl-p">2015年2月(決算月：1月)</p>
+                                    </li>
+                                    <li class="fkfk-li">
+                                        <label class="flfl-l">資本金</label>
+                                        <p class="flflfl-p">1000万円</p>
+                                    </li>
+                                    <li class="fkfk-li">
+                                        <label class="flfl-l">社員数</label>
+                                        <p class="flflfl-p">75名</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="prpf">
+                    <div class="prpf-flex">
+                        <p class="copy-r">&copy; 2021 Oplan Inc.</p>
+                        <span class="cps">
+                            <a href="https://oplan.co.jp/site-policy" class="sp-a">SITE POLICY</a>
+                            <a href="https://oplan.co.jp/privacy-policy" class="sp-aa1">PRIVACY POLICY</a>
+                        </span>
+                    </div>
+                </div>
+            </footer>
 
 </body>
 </html>
