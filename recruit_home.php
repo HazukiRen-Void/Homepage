@@ -23,7 +23,7 @@
         <div class="head-container1">
             <div class="head-flex">
                 <div class="head-left-flex">
-                    <a href="#" class="ha">
+                    <a href="index.php" class="ha">
                         <img src="images/logo-white.png" alt="logo" class="flw" id="js9">
                         <img src="images/logo-blue.png" alt="logo" class="flb" id="js10">
                     </a>
@@ -934,8 +934,7 @@
                    </div>
                  </div>
                </a>
-
-                </div>
+              </div>
          </div>
         </div>
        </section>
@@ -1438,16 +1437,16 @@
                     <h2 class="footeer-h2">公式リンク</h2>
                     <ul class="footer-ul">
                         <li class="footer-li">
-                            <a href="https://recruit.oplan.co.jp/" class="footer-a" target="_blank" rel="noreferrer">-HomePage</a>
+                            <a href="index.php" class="footer-a" target="_blank" rel="noreferrer">-HomePage</a>
                         </li>
                         <li class="footer-lii">
-                            <a href="#" class="footer-a" target="_blank" rel="noreferrer">-Blog</a>
+                            <a href="https://blog.oplan.co.jp/" class="footer-a" target="_blank" rel="noreferrer">-Blog</a>
                         </li>
                         <li class="footer-lii">
-                            <a href="#" class="footer-a" target="_blank" rel="noreferrer">-Facebook</a>
+                            <a href="https://www.facebook.com/oplaninc/" class="footer-a" target="_blank" rel="noreferrer">-Facebook</a>
                         </li>
                         <li class="footer-lii">
-                            <a href="#" class="footer-a" target="_blank" rel="noreferrer">-Twitter</a>
+                            <a href="https://twitter.com/oplan_inc" class="footer-a" target="_blank" rel="noreferrer">-Twitter</a>
                         </li>
                     </ul>
                     <div class="jfooter">

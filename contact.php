@@ -14,7 +14,7 @@
                 <div class="head-container">
                     <div class="head-flex">
                         <div class="head-left-flex">
-                            <a href="#" class="ha">
+                            <a href="index.php" class="ha">
                                 <img src="images/logo-white.png" alt="logo" class="flw">
                                 <img src="images/logo-blue.png" alt="logo" class="flb">
                             </a>
@@ -28,7 +28,7 @@
                         </div>
                         <div class="bh">
                             <div class="tsh-flex">
-                                <a href="#" class="fjfa">
+                                <a href="index.php" class="fjfa">
                                     <div class="flal">
                                         <span class="gls">Home</span>
                                         <span class="gls-h">
@@ -252,21 +252,21 @@
                             <h2 class="footeer-h2">公式リンク</h2>
                             <ul class="footer-ul">
                                 <li class="footer-li">
-                                    <a href="https://recruit.oplan.co.jp/" class="footer-a" target="_blank" rel="noreferrer">-Recruit</a>
+                                    <a href="recruit_home.php" class="footer-a" target="_blank" rel="noreferrer">-Recruit</a>
                                 </li>
                                 <li class="footer-lii">
-                                    <a href="#" class="footer-a" target="_blank" rel="noreferrer">-Blog</a>
+                                    <a href="https://blog.oplan.co.jp/" class="footer-a" target="_blank" rel="noreferrer">-Blog</a>
                                 </li>
                                 <li class="footer-lii">
-                                    <a href="#" class="footer-a" target="_blank" rel="noreferrer">-Facebook</a>
+                                    <a href="https://www.facebook.com/oplaninc/" class="footer-a" target="_blank" rel="noreferrer">-Facebook</a>
                                 </li>
                                 <li class="footer-lii">
-                                    <a href="#" class="footer-a" target="_blank" rel="noreferrer">-Twitter</a>
+                                    <a href="https://www.facebook.com/oplaninc/" class="footer-a" target="_blank" rel="noreferrer">-Twitter</a>
                                 </li>
                             </ul>
                             <div class="jfooter">
                                 <div class="jf-flex">
-                                    <a href="#" class="jfs-a" target="_self">お問い合わせ</a>
+                                    <a href="contact.php" class="jfs-a" target="_self">お問い合わせ</a>
                                 </div>
                             </div>
                         </div>
@@ -307,8 +307,8 @@
                     <div class="prpf-flex">
                         <p class="copy-r">&copy; 2021 Oplan Inc.</p>
                         <span class="cps">
-                            <a href="#" class="sp-a">SITE POLICY</a>
-                            <a href="#" class="sp-aa1">PRIVACY POLICY</a>
+                            <a href="https://oplan.co.jp/site-policy" class="sp-a">SITE POLICY</a>
+                            <a href="https://oplan.co.jp/privacy-policy" class="sp-aa1">PRIVACY POLICY</a>
                         </span>
                     </div>
                 </div>

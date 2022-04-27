@@ -14,7 +14,7 @@
         <div class="head-container1">
             <div class="head-flex">
                 <div class="head-left-flex">
-                    <a href="#" class="ha">
+                    <a href="index.php" class="ha">
                         <img src="images/logo-white.png" alt="logo" class="flw" id="js9">
                         <img src="images/logo-blue.png" alt="logo" class="flb" id="js10">
                     </a>
@@ -38,7 +38,7 @@
                                 </span>
                             </div>
                         </a>
-                        <a href="#column" class="fjfa1" id="js2">
+                        <a href="#" class="fjfa1" id="js2">
                             <div class="flal">
                                 <span class="gls">Service</span>
                                 <span class="gls-h">
@@ -48,7 +48,7 @@
                                 </span>
                             </div>
                         </a>
-                        <a href="#career" class="fjfa1" id="js3">
+                        <a href="#" class="fjfa1" id="js3">
                             <div class="flal">
                                 <span class="gls">Company</span>
                                 <span class="gls-h">
@@ -58,7 +58,7 @@
                                 </span>
                             </div>
                         </a>
-                        <a href="#interview" class="fjfa1" id="js4">
+                        <a href="recruit_home.php" class="fjfa1" id="js4">
                             <div class="flal">
                                 <span class="gls">Recruit</span>
                                 <span class="gls-h">
@@ -68,7 +68,7 @@
                                 </span>
                             </div>
                         </a>
-                        <a href="#workPlace" class="fjfa1" id="js5">
+                        <a href="contact.php" class="fjfa1" id="js5">
                             <div class="flal">
                                 <span class="gls">Contact</span>
                                 <span class="gls-h">
