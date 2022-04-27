@@ -58,7 +58,7 @@
                                         </span>
                                     </div>
                                 </a>
-                                <a href="#" class="fjfa">
+                                <a href="recruit_home.php" class="fjfa">
                                     <div class="flal">
                                         <span class="gls">Recruit</span>
                                         <span class="gls-h">
