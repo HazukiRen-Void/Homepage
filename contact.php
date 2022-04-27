@@ -28,7 +28,7 @@
                         </div>
                         <div class="bh">
                             <div class="tsh-flex">
-                                <a href="index.php" class="fjfa">
+                                <a href="index.html" class="fjfa">
                                     <div class="flal">
                                         <span class="gls">Home</span>
                                         <span class="gls-h">
@@ -38,7 +38,7 @@
                                         </span>
                                     </div>
                                 </a>
-                                <a href="#" class="fjfa">
+                                <a href="servise.html" class="fjfa">
                                     <div class="flal">
                                         <span class="gls">Service</span>
                                         <span class="gls-h">
@@ -48,7 +48,7 @@
                                         </span>
                                     </div>
                                 </a>
-                                <a href="#" class="fjfa">
+                                <a href="company.html" class="fjfa">
                                     <div class="flal">
                                         <span class="gls">Company</span>
                                         <span class="gls-h">
@@ -58,7 +58,7 @@
                                         </span>
                                     </div>
                                 </a>
-                                <a href="recruit_home.php" class="fjfa">
+                                <a href="recruit_home.html" class="fjfa">
                                     <div class="flal">
                                         <span class="gls">Recruit</span>
                                         <span class="gls-h">
@@ -252,7 +252,7 @@
                             <h2 class="footeer-h2">公式リンク</h2>
                             <ul class="footer-ul">
                                 <li class="footer-li">
-                                    <a href="recruit_home.php" class="footer-a" target="_blank" rel="noreferrer">-Recruit</a>
+                                    <a href="recruit_home.html" class="footer-a" target="_blank" rel="noreferrer">-Recruit</a>
                                 </li>
                                 <li class="footer-lii">
                                     <a href="https://blog.oplan.co.jp/" class="footer-a" target="_blank" rel="noreferrer">-Blog</a>
